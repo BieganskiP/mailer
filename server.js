@@ -30,7 +30,7 @@ app.post("/contact", (req, res) => {
 
   // Create email data
   const msg = {
-    to: "bieganski1996@gmail.com",
+    to: "tootoxictolive@gmail.com",
     from: "bieganski1996@gmail.com",
     subject: "New Contact Form Submission",
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
